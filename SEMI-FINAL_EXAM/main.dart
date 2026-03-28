@@ -1,5 +1,5 @@
-// Name:
-// Date: March 2026
+// Name: Calvrio & Matala
+// Date: March 28,2026
 // System: Sari-Sari Store Inventory System (Console-Based CRUD)
 
 import 'dart:io';
@@ -13,7 +13,7 @@ void pause() {
   stdin.readLineSync();
 }
 
-// CREATE
+// ADD NEW ITEM
 void createItem() {
   print("\n=== ADD NEW PRODUCT ===");
 
@@ -37,7 +37,7 @@ void createItem() {
   pause();
 }
 
-// READ
+// VIEW THE ITEMS
 void viewItems() {
   print("\n=== PRODUCT LIST ===");
 
@@ -54,7 +54,7 @@ void viewItems() {
   pause();
 }
 
-// UPDATE
+// UPDATE THE ITEM
 void updateItem() {
   print("\n=== UPDATE PRODUCT ===");
 
@@ -84,7 +84,7 @@ void updateItem() {
   pause();
 }
 
-// DELETE
+// DELETE THE ITEM
 void deleteItem() {
   print("\n=== DELETE PRODUCT ===");
 
@@ -97,7 +97,7 @@ void deleteItem() {
   pause();
 }
 
-// MENU
+// MENU FUNCTION
 void showMenu() {
   print("\n===============================");
   print(" SARI-SARI STORE INVENTORY");
